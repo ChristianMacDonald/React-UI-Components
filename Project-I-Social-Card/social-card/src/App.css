@@ -6,4 +6,7 @@
 .app {
     width: 40%;
     margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
 }

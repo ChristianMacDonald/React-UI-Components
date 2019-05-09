@@ -6,10 +6,12 @@ import './Card.css';
 class CardContainer extends React.Component {
     render() {
         return (
-            <div className="card-container">
-                <CardBanner />
-                <CardContent />
-            </div>
+            <a className="card-container-anchor" href="https://www.reactjs.org">
+                <div className="card-container">
+                    <CardBanner />
+                    <CardContent />
+                </div>
+            </a>
         );
     }
 }

@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    width: 90%;
+}
+
+.card-container-anchor {
+    text-decoration: none;
+    color: black;
+}
+
+.card-container-anchor:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.card-container {
+    margin: 0 0 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-container .card-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.card-container .card-content {
+    padding: 10px;
+}
