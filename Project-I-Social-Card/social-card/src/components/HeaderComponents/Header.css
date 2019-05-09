@@ -1,1 +1,48 @@
 /* All styles for your header Components live here */
+
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-container .image-thumbnail {
+    width: 20%;
+    padding: 10px;
+}
+
+.header-container .image-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.header-container .text-content {
+    padding: 10px 0;
+}
+
+.header-container .text-content .header-title span {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.header-container .text-content .header-title span:first-child {
+    margin-left: 0;
+}
+
+.header-container .text-content .header-title span:last-child {
+    margin-right: 0;
+}
+
+.header-container .text-content .header-content p {
+    font-size: 18px;
+}
+
+.gray {
+    color: lightgray;
+}
+
+.name {
+    font-size: 24px;
+}
