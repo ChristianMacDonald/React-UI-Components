@@ -13,3 +13,5 @@ class CardContainer extends React.Component {
         );
     }
 }
+
+export default CardContainer;
