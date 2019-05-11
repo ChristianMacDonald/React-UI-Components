@@ -1,0 +1,40 @@
+.calculator-button {
+    border-collapse: collapse;
+    border: 0;
+    background: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.action-button {
+    width: 75%;
+}
+
+.number-button {
+    width: 25%;
+}
+
+.operator-button {
+    background: rgb(200, 0, 50);
+    color: white;
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.border-left {
+    border-left: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}

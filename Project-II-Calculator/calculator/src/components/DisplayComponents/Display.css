@@ -1,0 +1,14 @@
+.calculator-display {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.calculator-result {
+    width: 100%;
+    background: dimgray;
+    color: white;
+    border: 1px solid black;
+    margin: 0;
+    text-align: right;
+    padding: 5px;
+}
