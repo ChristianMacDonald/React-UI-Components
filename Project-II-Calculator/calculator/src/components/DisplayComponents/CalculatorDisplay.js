@@ -27,3 +27,5 @@ class CalculatorDisplay extends React.Component {
         );
     }
 }
+
+export default CalculatorDisplay;
