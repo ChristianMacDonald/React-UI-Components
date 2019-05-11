@@ -4,7 +4,7 @@ import './Button.css';
 class ActionButton extends React.Component {
     render() {
         return (
-            <button className="action-button">{this.props.label}</button>
+            <button className={this.props.buttonStyle}>{this.props.text}</button>
         );
     }
 }
