@@ -4,8 +4,10 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
     return (
-        <CalculatorDisplay />
-  );
+        <div id="root">
+            <CalculatorDisplay />
+        </div>
+    );
 };
 
 export default App;
