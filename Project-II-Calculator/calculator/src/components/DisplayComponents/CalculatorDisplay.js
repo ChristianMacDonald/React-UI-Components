@@ -1,7 +1,7 @@
 import React from 'react';
 import './Display.css';
-import '../ButtonComponents/ActionButton';
-import '../ButtonComponents/NumberButton';
+import ActionButton from '../ButtonComponents/ActionButton';
+import NumberButton from '../ButtonComponents/NumberButton';
 
 class CalculatorDisplay extends React.Component {
     render() {
